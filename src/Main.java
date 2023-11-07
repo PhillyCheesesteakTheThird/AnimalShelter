@@ -2,10 +2,10 @@
 public class Main {
     public static void main(String[] args) {
         AdoptableAnimal[] animals = new AdoptableAnimal[] {
-                new Cat("Billy", "He sucks", 200000),
-                new Cat("Not Billy", "Way better than billy", 2),
+                new Cat("Mo", "Small but fat", 200000),
+                new Cat("Po", "Fat", 2),
                 new ShihTzu("Tsubi", "Wow!","Havashu mix",200),
-                new Pitbull("Rough", "The best","Pitbull",20)
+                new Pitbull("Cupcake", "The best","Pitbull",20)
         };
 
         for (AdoptableAnimal animal : animals) {
